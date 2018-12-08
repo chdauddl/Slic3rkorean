@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-23 12:06+0200\n"
-"PO-Revision-Date: 2018-12-09 01:36+0900\n"
+"PO-Revision-Date: 2018-12-09 02:34+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ko_KR\n"
@@ -139,7 +139,7 @@ msgstr "네트워크 조회"
 
 #: xs/src/slic3r/GUI/BonjourDialog.cpp:66
 msgid "Address"
-msgstr "어드래스"
+msgstr "주소"
 
 #: xs/src/slic3r/GUI/BonjourDialog.cpp:67
 msgid "Hostname"
@@ -293,6 +293,7 @@ msgstr ""
 "움이 됩니다. 단지 몇 가지 설정 하 고 당신은 인쇄 준비가 될 것입니다."
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:230
+#, fuzzy
 msgid ""
 "Remove user profiles - install from scratch (a snapshot will be taken "
 "beforehand)"
@@ -676,30 +677,33 @@ msgid "None"
 msgstr "없음"
 
 #: xs/src/slic3r/GUI/GUI.cpp:864 xs/src/libslic3r/PrintConfig.cpp:1656
+#, fuzzy
 msgid "Support on build plate only"
-msgstr ""
+msgstr "출력물에만 서포트를 지지"
 
 #: xs/src/slic3r/GUI/GUI.cpp:865
 msgid "Everywhere"
-msgstr ""
+msgstr "모든곳"
 
 #: xs/src/slic3r/GUI/GUI.cpp:877 xs/src/slic3r/GUI/Tab.cpp:844
 msgid "Brim"
 msgstr "브림"
 
 #: xs/src/slic3r/GUI/GUI.cpp:879
+#, fuzzy
 msgid ""
 "This flag enables the brim that will be printed around each object on the "
 "first layer."
 msgstr ""
+"이 플래그는 첫 번째 레이어의 각 개체 주위에 인쇄 될 브림을 활성화합니다."
 
 #: xs/src/slic3r/GUI/GUI.cpp:888
 msgid "Purging volumes"
-msgstr ""
+msgstr "볼륨 삭제"
 
 #: xs/src/slic3r/GUI/GUI.cpp:930
 msgid "Export print config"
-msgstr ""
+msgstr "인쇄 설정 내보내기"
 
 #: xs/src/slic3r/GUI/MsgDialog.cpp:64
 msgid "Slic3r error"
@@ -707,66 +711,72 @@ msgstr "Slic3r 오류"
 
 #: xs/src/slic3r/GUI/MsgDialog.cpp:64
 msgid "Slic3r has encountered an error"
-msgstr ""
+msgstr "Slic3r에 오류가 발생했습니다."
 
 #: xs/src/slic3r/GUI/Tab.cpp:84
 msgid "Save current "
-msgstr ""
+msgstr "지금 저장"
 
 #: xs/src/slic3r/GUI/Tab.cpp:85
+#, fuzzy
 msgid "Delete this preset"
-msgstr ""
+msgstr "이전 설정 삭제"
 
 #: xs/src/slic3r/GUI/Tab.cpp:97
 msgid ""
 "Hover the cursor over buttons to find more information \n"
 "or click this button."
 msgstr ""
+"버튼 위로 커서를 가져 가서 자세한 정보를 찾습니다.\n"
+"또는이 버튼을 클릭하십시오."
 
 #: xs/src/slic3r/GUI/Tab.cpp:716
 msgid "It's a default preset."
-msgstr ""
+msgstr "기본 설정입니다."
 
 #: xs/src/slic3r/GUI/Tab.cpp:717
 msgid "It's a system preset."
-msgstr ""
+msgstr "시스템 설정입니다."
 
 #: xs/src/slic3r/GUI/Tab.cpp:718
+#, fuzzy
 msgid "Current preset is inherited from "
-msgstr ""
+msgstr "전의 설정에서 가져 옵니다."
 
 #: xs/src/slic3r/GUI/Tab.cpp:723
 msgid "It can't be deleted or modified. "
-msgstr ""
+msgstr "삭제하거나 수정할 수 없습니다."
 
 #: xs/src/slic3r/GUI/Tab.cpp:724
+#, fuzzy
 msgid ""
 "Any modifications should be saved as a new preset inherited from this one. "
-msgstr ""
+msgstr "모든 수정 사항은 이 항목에서 받은 기본 설정으로 저장해야합니다"
 
 #: xs/src/slic3r/GUI/Tab.cpp:725
+#, fuzzy
 msgid "To do that please specify a new name for the preset."
-msgstr ""
+msgstr "그렇게하려면 기본 설정의 새 이름을 지정하십시오."
 
 #: xs/src/slic3r/GUI/Tab.cpp:729
 msgid "Additional information:"
-msgstr ""
+msgstr "추가 정보:"
 
 #: xs/src/slic3r/GUI/Tab.cpp:737
 msgid "printer model"
-msgstr ""
+msgstr "프린터 모델"
 
 #: xs/src/slic3r/GUI/Tab.cpp:739
 msgid "default print profile"
-msgstr ""
+msgstr "기본 인쇄 프로파일"
 
 #: xs/src/slic3r/GUI/Tab.cpp:742
 msgid "default filament profile"
-msgstr ""
+msgstr "기본 필라멘트 프로파일"
 
 #: xs/src/slic3r/GUI/Tab.cpp:786
 msgid "Layers and perimeters"
-msgstr ""
+msgstr "레이어 및 경계선"
 
 #: xs/src/slic3r/GUI/Tab.cpp:787 xs/src/libslic3r/PrintConfig.cpp:886
 msgid "Layer height"
@@ -774,19 +784,19 @@ msgstr "레이어 높이"
 
 #: xs/src/slic3r/GUI/Tab.cpp:791
 msgid "Vertical shells"
-msgstr ""
+msgstr "쉘 높이"
 
 #: xs/src/slic3r/GUI/Tab.cpp:802
 msgid "Horizontal shells"
-msgstr ""
+msgstr "쉘 너비"
 
 #: xs/src/slic3r/GUI/Tab.cpp:803 xs/src/libslic3r/PrintConfig.cpp:1562
 msgid "Solid layers"
-msgstr ""
+msgstr "솔리드 레이어"
 
 #: xs/src/slic3r/GUI/Tab.cpp:808
 msgid "Quality (slower slicing)"
-msgstr ""
+msgstr "품질(슬라이싱이 느려짐)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:815 xs/src/slic3r/GUI/Tab.cpp:829
 #: xs/src/slic3r/GUI/Tab.cpp:923 xs/src/slic3r/GUI/Tab.cpp:926
@@ -794,7 +804,7 @@ msgstr ""
 #: xs/src/libslic3r/PrintConfig.cpp:110 xs/src/libslic3r/PrintConfig.cpp:245
 #: xs/src/libslic3r/PrintConfig.cpp:833 xs/src/libslic3r/PrintConfig.cpp:2021
 msgid "Advanced"
-msgstr ""
+msgstr "고급"
 
 #: xs/src/slic3r/GUI/Tab.cpp:819 xs/src/slic3r/GUI/Tab.cpp:820
 #: xs/src/slic3r/GUI/Tab.cpp:1127 xs/src/libslic3r/PrintConfig.cpp:90
@@ -809,11 +819,11 @@ msgstr "인필(채움)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:825
 msgid "Reducing printing time"
-msgstr ""
+msgstr "출력 시간 단축"
 
 #: xs/src/slic3r/GUI/Tab.cpp:837
 msgid "Skirt and brim"
-msgstr ""
+msgstr "스커트와 브림"
 
 #: xs/src/slic3r/GUI/Tab.cpp:838 xs/src/libslic3r/GCode/PreviewData.cpp:171
 #: lib/Slic3r/GUI/Plater/3DPreview.pm:98
@@ -834,15 +844,16 @@ msgstr "스커트"
 #: xs/src/libslic3r/GCode/PreviewData.cpp:172
 #: lib/Slic3r/GUI/Plater/3DPreview.pm:99
 msgid "Support material"
-msgstr ""
+msgstr "서포트 재료(Support material)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:853
 msgid "Raft"
 msgstr "라프트"
 
 #: xs/src/slic3r/GUI/Tab.cpp:857
+#, fuzzy
 msgid "Options for support material and raft"
-msgstr ""
+msgstr "서포트와 라프트 재료를 선택"
 
 #: xs/src/slic3r/GUI/Tab.cpp:871 xs/src/libslic3r/PrintConfig.cpp:122
 #: xs/src/libslic3r/PrintConfig.cpp:315 xs/src/libslic3r/PrintConfig.cpp:732
@@ -855,27 +866,28 @@ msgstr "속도"
 
 #: xs/src/slic3r/GUI/Tab.cpp:872
 msgid "Speed for print moves"
-msgstr ""
+msgstr "출력중 이동 속도"
 
 #: xs/src/slic3r/GUI/Tab.cpp:884
 msgid "Speed for non-print moves"
-msgstr ""
+msgstr "미출력시 이동속도"
 
 #: xs/src/slic3r/GUI/Tab.cpp:887
+#, fuzzy
 msgid "Modifiers"
-msgstr ""
+msgstr "Modifiers"
 
 #: xs/src/slic3r/GUI/Tab.cpp:890
 msgid "Acceleration control (advanced)"
-msgstr ""
+msgstr "가속 제어(고급)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:897
 msgid "Autospeed (advanced)"
-msgstr ""
+msgstr "오토스피트(고급)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:903
 msgid "Multiple Extruders"
-msgstr ""
+msgstr "다중 익스트루더"
 
 #: xs/src/slic3r/GUI/Tab.cpp:904 xs/src/slic3r/GUI/Tab.cpp:1451
 #: xs/src/libslic3r/PrintConfig.cpp:345 xs/src/libslic3r/PrintConfig.cpp:799
@@ -883,24 +895,24 @@ msgstr ""
 #: xs/src/libslic3r/PrintConfig.cpp:1693 xs/src/libslic3r/PrintConfig.cpp:1719
 #: xs/src/libslic3r/PrintConfig.cpp:1995 xs/src/libslic3r/PrintConfig.cpp:2004
 msgid "Extruders"
-msgstr ""
+msgstr "익스트루더"
 
 #: xs/src/slic3r/GUI/Tab.cpp:911
 msgid "Ooze prevention"
-msgstr ""
+msgstr "오즈 방지(Ooze prevention)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:915 xs/src/libslic3r/GCode/PreviewData.cpp:174
 #: lib/Slic3r/GUI/Plater/3DPreview.pm:101
 msgid "Wipe tower"
-msgstr ""
+msgstr "와이프 타워(Wipe tower)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:927
 msgid "Extrusion width"
-msgstr ""
+msgstr "악출 폭(Extrusion width)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:937
 msgid "Overlap"
-msgstr ""
+msgstr "겹침(Overlap)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:940
 msgid "Flow"
@@ -908,48 +920,51 @@ msgstr "유량(Flow)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:943
 msgid "Other"
-msgstr ""
+msgstr "그 외"
 
 #: xs/src/slic3r/GUI/Tab.cpp:950
+#, fuzzy
 msgid "Output options"
-msgstr ""
+msgstr "출력 옵션"
 
 #: xs/src/slic3r/GUI/Tab.cpp:951
 msgid "Sequential printing"
-msgstr ""
+msgstr "연속 인쇄"
 
 #: xs/src/slic3r/GUI/Tab.cpp:953
 msgid "Extruder clearance (mm)"
-msgstr ""
+msgstr "익스트루더 간격(mm)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:962
 msgid "Output file"
-msgstr ""
+msgstr "출력 파일"
 
 #: xs/src/slic3r/GUI/Tab.cpp:968 xs/src/libslic3r/PrintConfig.cpp:1234
+#, fuzzy
 msgid "Post-processing scripts"
-msgstr ""
+msgstr "포스트 프로세싱 스크립트"
 
 #: xs/src/slic3r/GUI/Tab.cpp:974 xs/src/slic3r/GUI/Tab.cpp:975
 #: xs/src/slic3r/GUI/Tab.cpp:1329 xs/src/slic3r/GUI/Tab.cpp:1330
 #: xs/src/slic3r/GUI/Tab.cpp:1668 xs/src/slic3r/GUI/Tab.cpp:1669
 msgid "Notes"
-msgstr ""
+msgstr "메모"
 
 #: xs/src/slic3r/GUI/Tab.cpp:981 xs/src/slic3r/GUI/Tab.cpp:1337
 #: xs/src/slic3r/GUI/Tab.cpp:1675
+#, fuzzy
 msgid "Dependencies"
-msgstr ""
+msgstr "종속성"
 
 #: xs/src/slic3r/GUI/Tab.cpp:982 xs/src/slic3r/GUI/Tab.cpp:1338
 #: xs/src/slic3r/GUI/Tab.cpp:1676
 msgid "Profile dependencies"
-msgstr ""
+msgstr "프로파일 종석성"
 
 #: xs/src/slic3r/GUI/Tab.cpp:983 xs/src/slic3r/GUI/Tab.cpp:1339
 #: xs/src/slic3r/GUI/Tab.cpp:2364 xs/src/libslic3r/PrintConfig.cpp:147
 msgid "Compatible printers"
-msgstr ""
+msgstr "호환 가능한 프린터들"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1016
 #, no-c-format
@@ -963,12 +978,21 @@ msgid ""
 "\n"
 "Shall I adjust those settings in order to enable Spiral Vase?"
 msgstr ""
+"스파이럴 바이스 모드에는 다음이 필요합니다.\n"
+"- one 둘레\n"
+"- 탑 솔리드 레이어 없음\n"
+"- 채우기(fill) 밀도 0 %\n"
+"- 서포트 재료 없음\n"
+"- 수직 벽 두깨를 보장하지 않음\n"
+"\n"
+"스파이럴 바이스를 사용하려면 이러한 설정을 조정해야합니까?"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1023
 msgid "Spiral Vase"
-msgstr ""
+msgstr "스파이럴 바이스"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1044
+#, fuzzy
 msgid ""
 "The Wipe Tower currently supports the non-soluble supports only\n"
 "if they are printed with the current extruder without triggering a tool "
@@ -978,34 +1002,51 @@ msgid ""
 "\n"
 "Shall I adjust those settings in order to enable the Wipe Tower?"
 msgstr ""
+"와이프 타워는 현재 비 가용성 서포트 만 지원합니다.\n"
+"공구 교환을 트리거하지 않고 현재 압출기로 인쇄 한 경우.\n"
+"(support_material_extruder 및 support_material_interface_extruder를 모두 0으"
+"로 설정해야 함).\n"
+"\n"
+"와이프 타워를 사용하려면 이러한 설정을 조정해야합니까?"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1048 xs/src/slic3r/GUI/Tab.cpp:1065
 msgid "Wipe Tower"
-msgstr ""
+msgstr "와이프 타워(Wipe Tower)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1062
+#, fuzzy
 msgid ""
 "For the Wipe Tower to work with the soluble supports, the support layers\n"
 "need to be synchronized with the object layers.\n"
 "\n"
 "Shall I synchronize support layers in order to enable the Wipe Tower?"
 msgstr ""
+"\n"
+"와이프 타워가 가용성 서포트와 함께 작용하기 위해, 서포트 레이어\n"
+"객체 레이어와 동기화되어야합니다.\n"
+"\n"
+"와이프 타워를 사용하려면 서포트 레이어를 동기화해야합니까?"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1080
+#, fuzzy
 msgid ""
 "Supports work better, if the following feature is enabled:\n"
 "- Detect bridging perimeters\n"
 "\n"
 "Shall I adjust those settings for supports?"
 msgstr ""
+"다음 기능을 사용하는 경우 더 나은 작업을 지원합니다.\n"
+"- 브리지 경계 검출\n"
+"\n"
+"서포트에 대한 설정을 조정해야합니까?"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1083
 msgid "Support Generator"
-msgstr ""
+msgstr "서포트 생성"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1125
 msgid "The "
-msgstr ""
+msgstr "The"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1125
 #, no-c-format
@@ -1014,15 +1055,18 @@ msgid ""
 "\n"
 "Shall I switch to rectilinear fill pattern?"
 msgstr ""
+"infill 패턴은 100 % 밀도에서 작동하지 않습니다.\n"
+"\n"
+"직선 채우기 패턴으로 전환해야합니까?"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1231 xs/src/slic3r/GUI/Tab.cpp:1232
 #: lib/Slic3r/GUI/Plater.pm:454
 msgid "Filament"
-msgstr ""
+msgstr "필라멘트"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1239
 msgid "Temperature "
-msgstr ""
+msgstr "온도"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1240 xs/src/libslic3r/PrintConfig.cpp:344
 msgid "Extruder"
@@ -1039,151 +1083,157 @@ msgstr "냉각(Cooling)"
 #: xs/src/slic3r/GUI/Tab.cpp:1251 xs/src/libslic3r/PrintConfig.cpp:1137
 #: xs/src/libslic3r/PrintConfig.cpp:1941
 msgid "Enable"
-msgstr ""
+msgstr "사용"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1262
 msgid "Fan settings"
-msgstr ""
+msgstr "팬 설정"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1263
 msgid "Fan speed"
-msgstr ""
+msgstr "팬 속도"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1271
+#, fuzzy
 msgid "Cooling thresholds"
-msgstr ""
+msgstr "냉각 임계 값"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1277
 msgid "Filament properties"
-msgstr ""
+msgstr "필라멘트 특성"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1281
+#, fuzzy
 msgid "Print speed override"
-msgstr ""
+msgstr "인쇄 속도 중단"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1291
 msgid "Toolchange parameters with single extruder MM printers"
-msgstr ""
+msgstr "싱글 익스트루더 MM 프린터를 사용한 공구 교환 매개 변수"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1299
+#, fuzzy
 msgid "Ramming"
-msgstr ""
+msgstr "래밍"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1301
+#, fuzzy
 msgid "Ramming settings"
-msgstr ""
+msgstr "래밍 설정"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1316 xs/src/slic3r/GUI/Tab.cpp:1631
 msgid "Custom G-code"
-msgstr ""
+msgstr "수동 G코드"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1317 xs/src/slic3r/GUI/Tab.cpp:1632
 #: xs/src/libslic3r/PrintConfig.cpp:1590 xs/src/libslic3r/PrintConfig.cpp:1605
 msgid "Start G-code"
-msgstr ""
+msgstr "스타트 G코드"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1323 xs/src/slic3r/GUI/Tab.cpp:1638
 #: xs/src/libslic3r/PrintConfig.cpp:254 xs/src/libslic3r/PrintConfig.cpp:264
 msgid "End G-code"
-msgstr ""
+msgstr "엔드 G코드"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1419 xs/src/slic3r/GUI/Preferences.cpp:17
 msgid "General"
-msgstr ""
+msgstr "일반"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1420
 msgid "Size and coordinates"
-msgstr ""
+msgstr "크기와 좌표"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1422 xs/src/libslic3r/PrintConfig.cpp:37
 msgid "Bed shape"
-msgstr ""
+msgstr "배드 모양"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1424 xs/src/slic3r/GUI/Tab.cpp:2332
 msgid " Set "
-msgstr ""
+msgstr " 세트 "
 
 #: xs/src/slic3r/GUI/Tab.cpp:1447
 msgid "Capabilities"
-msgstr ""
+msgstr "기능"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1452
 msgid "Number of extruders of the printer."
-msgstr ""
+msgstr "프린터 익스트루더 숫자"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1477
 msgid "USB/Serial connection"
-msgstr ""
+msgstr "USB/시리얼 연결"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1478 xs/src/libslic3r/PrintConfig.cpp:1441
 msgid "Serial port"
-msgstr ""
+msgstr "시리얼 포트"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1483
 msgid "Rescan serial ports"
-msgstr ""
+msgstr "시리얼포트 재검색"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1492 xs/src/slic3r/GUI/Tab.cpp:1539
 msgid "Test"
-msgstr ""
+msgstr "시험(test)"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1505
 msgid "Connection to printer works correctly."
-msgstr ""
+msgstr "프린터 연결이 올바르게 작동합니다."
 
 #: xs/src/slic3r/GUI/Tab.cpp:1505 xs/src/slic3r/GUI/Tab.cpp:1549
 msgid "Success!"
-msgstr ""
+msgstr "성공!"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1508
 msgid "Connection failed."
-msgstr ""
+msgstr "연결 실패"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1520 xs/src/slic3r/Utils/OctoPrint.cpp:110
 msgid "OctoPrint upload"
-msgstr ""
+msgstr "옥토프린트 업로드"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1523 xs/src/slic3r/GUI/Tab.cpp:1572
 msgid " Browse "
-msgstr ""
+msgstr " 검색 "
 
 #: xs/src/slic3r/GUI/Tab.cpp:1549
 msgid "Connection to OctoPrint works correctly."
-msgstr ""
+msgstr "OctoPrint에 연결하면 올바르게 작동합니다."
 
 #: xs/src/slic3r/GUI/Tab.cpp:1552
 msgid "Could not connect to OctoPrint"
-msgstr ""
+msgstr "OctoPrint에 연결할 수 없습니다."
 
 #: xs/src/slic3r/GUI/Tab.cpp:1552
 msgid "Note: OctoPrint version at least 1.1.0 is required."
-msgstr ""
+msgstr "참고 : OctoPrint 버전 1.1.0 이상이 필요합니다."
 
 #: xs/src/slic3r/GUI/Tab.cpp:1578
 msgid "Certificate files (*.crt, *.pem)|*.crt;*.pem|All files|*.*"
-msgstr ""
+msgstr "인증서 파일 (* .crt, * .pem) | * .crt; * .pem | 모든 파일 | *. *"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1579
 msgid "Open CA certificate file"
-msgstr ""
+msgstr "Open CA certificate file"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1593
 msgid ""
 "HTTPS CA file is optional. It is only needed if you use HTTPS with a self-"
 "signed certificate."
 msgstr ""
+"HTTPS CA 파일은 선택 사항입니다. 자체 서명 된 인증서로 HTTPS를 사용하는 경우"
+"에만 필요합니다."
 
 #: xs/src/slic3r/GUI/Tab.cpp:1644 xs/src/libslic3r/PrintConfig.cpp:51
 msgid "Before layer change G-code"
-msgstr ""
+msgstr "레이어 변경 전 G 코드"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1650 xs/src/libslic3r/PrintConfig.cpp:875
 msgid "After layer change G-code"
-msgstr ""
+msgstr "레이어 변경 후 G 코드"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1656 xs/src/libslic3r/PrintConfig.cpp:1848
 msgid "Tool change G-code"
-msgstr ""
+msgstr "툴 채인지 G 코드"
 
 #: xs/src/slic3r/GUI/Tab.cpp:1662
 msgid "Between objects G-code (for sequential printing)"
@@ -5158,7 +5208,7 @@ msgstr ""
 
 #: lib/Slic3r/GUI/Plater/3DPreview.pm:85
 msgid "Show"
-msgstr "Show"
+msgstr "보다"
 
 #: lib/Slic3r/GUI/Plater/3DPreview.pm:88 lib/Slic3r/GUI/Plater/3DPreview.pm:89
 msgid "Feature types"
