@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-23 12:06+0200\n"
-"PO-Revision-Date: 2018-12-08 21:52+0900\n"
+"PO-Revision-Date: 2018-12-09 01:36+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ko_KR\n"
@@ -406,13 +406,15 @@ msgstr "노즐 직경:"
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:455
 msgid "Enter the diameter of your filament."
-msgstr ""
+msgstr "필라멘트의 직경을 입력하십시오."
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:456
 msgid ""
 "Good precision is required, so use a caliper and do multiple measurements "
 "along the filament, then compute the average."
 msgstr ""
+"정밀도가 필요하므로 캘리퍼를 사용하여 필라멘트를 따라 여러 번 측정 한 다음 평"
+"균을 계산하십시오."
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:459
 msgid "Filament Diameter:"
@@ -420,7 +422,7 @@ msgstr "필라멘트 직경:"
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:477
 msgid "Extruder and Bed Temperatures"
-msgstr ""
+msgstr "익스트루더와 배드 온도"
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:477
 msgid "Temperatures"
@@ -428,15 +430,15 @@ msgstr "온도 "
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:493
 msgid "Enter the temperature needed for extruding your filament."
-msgstr ""
+msgstr "필라멘트 압출에 필요한 온도를 입력하십시오."
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:494
 msgid "A rule of thumb is 160 to 230 °C for PLA, and 215 to 250 °C for ABS."
-msgstr ""
+msgstr "보통 PLA의 경우 160 ~ 230 ° C, ABS의 경우 215 ~ 250 ° C입니다."
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:497
 msgid "Extrusion Temperature:"
-msgstr ""
+msgstr "출력 온도 :"
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:498
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:512
@@ -447,37 +449,40 @@ msgstr "°C"
 msgid ""
 "Enter the bed temperature needed for getting your filament to stick to your "
 "heated bed."
-msgstr ""
+msgstr "필라멘트가 핫배드에 접착하는데 필요한 배드온도를 입력하십시오."
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:508
 msgid ""
 "A rule of thumb is 60 °C for PLA and 110 °C for ABS. Leave zero if you have "
 "no heated bed."
 msgstr ""
+"보통은 PLA의 경우 60 ° C이고 ABS의 경우 110 ° C입니다. 핫배드가 없는 경우에"
+"는 0으로 두십시오."
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:511
 msgid "Bed Temperature:"
-msgstr ""
+msgstr "배드 온도 :"
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:824
 msgid "< &Back"
-msgstr ""
+msgstr "< &뒤로"
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:825
 msgid "&Next >"
-msgstr ""
+msgstr "&다음 >"
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:826
 msgid "&Finish"
-msgstr ""
+msgstr "&완료"
 
+# 구성 마법사
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:896
 msgid "Configuration Wizard"
-msgstr ""
+msgstr "구성 마법사"
 
 #: xs/src/slic3r/GUI/ConfigWizard.cpp:898
 msgid "Configuration Assistant"
-msgstr ""
+msgstr "구성 도우미"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:87
 msgid "Flash!"
@@ -488,28 +493,33 @@ msgid "Cancel"
 msgstr "취소"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:128
+#, fuzzy
 msgid "Flashing in progress. Please do not disconnect the printer!"
-msgstr ""
+msgstr "아직 플래싱 중입니다. 커넥트를 분리하지 마십시오!"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:155
+#, fuzzy
 msgid "Flashing succeeded!"
-msgstr ""
+msgstr "끝났습니다!"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:156
+#, fuzzy
 msgid "Flashing failed. Please see the avrdude log below."
-msgstr ""
+msgstr "플래싱 실패. 아래의 로그를 확인하세요."
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:157
+#, fuzzy
 msgid "Flashing cancelled."
-msgstr ""
+msgstr "패치 취소됨."
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:294
 msgid "Cancelling..."
-msgstr ""
+msgstr "취소 중..."
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:347
+#, fuzzy
 msgid "Firmware flasher"
-msgstr ""
+msgstr "펌웨어 플래셔"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:367
 msgid "Serial port:"
@@ -517,15 +527,16 @@ msgstr "시리얼 포트:"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:369
 msgid "Rescan"
-msgstr ""
+msgstr "재검색"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:374
 msgid "Firmware image:"
-msgstr ""
+msgstr "펌웨어 이미지:"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:377
+#, fuzzy
 msgid "Status:"
-msgstr ""
+msgstr "지위:"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:378
 msgid "Ready"
@@ -533,33 +544,39 @@ msgstr "준비"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:381
 msgid "Progress:"
-msgstr ""
+msgstr "진행:"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:400
+#, fuzzy
 msgid "Advanced: avrdude output log"
-msgstr ""
+msgstr "고급: avrdude 로그 출력"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:446
+#, fuzzy
 msgid ""
 "Are you sure you want to cancel firmware flashing?\n"
 "This could leave your printer in an unusable state!"
 msgstr ""
+"펌웨어 플래싱을 취소하시겠습니까?\n"
+"프린터가 사용할 수 없는 상태가 될 수 있습니다!"
 
 #: xs/src/slic3r/GUI/FirmwareDialog.cpp:447
 msgid "Confirmation"
-msgstr ""
+msgstr "확인"
 
 #: xs/src/slic3r/GUI/GLCanvas3D.cpp:2308
+#, fuzzy
 msgid "Detected object outside print volume"
-msgstr ""
+msgstr "출력물이 프린터 출력 사이즈를 넘었습니다."
 
 #: xs/src/slic3r/GUI/GUI.cpp:233
+#, fuzzy
 msgid "Array of language names and identifiers should have the same size."
-msgstr ""
+msgstr "언어 이름과 식별자 배열은 같은 크기 여야합니다."
 
 #: xs/src/slic3r/GUI/GUI.cpp:244
 msgid "Select the language"
-msgstr ""
+msgstr "언어를 선택"
 
 #: xs/src/slic3r/GUI/GUI.cpp:244
 msgid "Language"
@@ -571,71 +588,71 @@ msgstr "기본값"
 
 #: xs/src/slic3r/GUI/GUI.cpp:349
 msgid "Inspect / activate configuration snapshots"
-msgstr ""
+msgstr "구성 스냅 샷 검사 / 활성화"
 
 #: xs/src/slic3r/GUI/GUI.cpp:350
 msgid "Take Configuration Snapshot"
-msgstr ""
+msgstr "구성 스냅 샷 가져 오기"
 
 #: xs/src/slic3r/GUI/GUI.cpp:350
 msgid "Capture a configuration snapshot"
-msgstr ""
+msgstr "구성 스냅 샷 캡처"
 
 #: xs/src/slic3r/GUI/GUI.cpp:353 xs/src/slic3r/GUI/Preferences.cpp:9
 msgid "Preferences"
-msgstr ""
+msgstr "환경 설정"
 
 #: xs/src/slic3r/GUI/GUI.cpp:353
 msgid "Application preferences"
-msgstr ""
+msgstr "응용 프로그램 환경 설정"
 
 #: xs/src/slic3r/GUI/GUI.cpp:354
 msgid "Change Application Language"
-msgstr ""
+msgstr "응용 프로그램 언어 번경"
 
 #: xs/src/slic3r/GUI/GUI.cpp:356
 msgid "Flash printer firmware"
-msgstr ""
+msgstr "프린터 펌웨어 완료"
 
 #: xs/src/slic3r/GUI/GUI.cpp:356
 msgid "Upload a firmware image into an Arduino based printer"
-msgstr ""
+msgstr "아두이노 기반의 프린터 이미지 업로드"
 
 #: xs/src/slic3r/GUI/GUI.cpp:368
 msgid "Taking configuration snapshot"
-msgstr ""
+msgstr "구성 스냅 샷 만들기"
 
 #: xs/src/slic3r/GUI/GUI.cpp:368
 msgid "Snapshot name"
-msgstr ""
+msgstr "스냅 샷 이름"
 
 #: xs/src/slic3r/GUI/GUI.cpp:406
 msgid "Application will be restarted"
-msgstr ""
+msgstr "애플리케이션이 다시 시작됨"
 
 #: xs/src/slic3r/GUI/GUI.cpp:406
 msgid "Attention!"
-msgstr ""
+msgstr "주목!"
 
 #: xs/src/slic3r/GUI/GUI.cpp:422
 msgid "&Configuration"
-msgstr ""
+msgstr "&구성"
 
 #: xs/src/slic3r/GUI/GUI.cpp:446
 msgid "You have unsaved changes "
-msgstr ""
+msgstr "저장되지 않은 변경 사항이 있습니다"
 
 #: xs/src/slic3r/GUI/GUI.cpp:446
 msgid ". Discard changes and continue anyway?"
-msgstr ""
+msgstr ". 변경 사항을 취소하고 계속 하시겠습니까?"
 
 #: xs/src/slic3r/GUI/GUI.cpp:447
 msgid "Unsaved Presets"
-msgstr ""
+msgstr "저장되지 않은 기존설정"
 
 #: xs/src/slic3r/GUI/GUI.cpp:655
 msgid "Notice"
-msgstr ""
+msgstr "공지"
 
 #: xs/src/slic3r/GUI/GUI.cpp:660
 msgid "Attempt to free unreferenced scalar"
@@ -644,7 +661,7 @@ msgstr ""
 #: xs/src/slic3r/GUI/GUI.cpp:662 xs/src/slic3r/GUI/WipeTowerDialog.cpp:39
 #: xs/src/slic3r/GUI/WipeTowerDialog.cpp:321
 msgid "Warning"
-msgstr ""
+msgstr "위험"
 
 #: xs/src/slic3r/GUI/GUI.cpp:859
 msgid "Support"
@@ -652,11 +669,11 @@ msgstr "서포트(지지대)"
 
 #: xs/src/slic3r/GUI/GUI.cpp:862
 msgid "Select what kind of support do you need"
-msgstr ""
+msgstr "서포트의 종류를 선택하세요"
 
 #: xs/src/slic3r/GUI/GUI.cpp:863 xs/src/libslic3r/GCode/PreviewData.cpp:162
 msgid "None"
-msgstr ""
+msgstr "없음"
 
 #: xs/src/slic3r/GUI/GUI.cpp:864 xs/src/libslic3r/PrintConfig.cpp:1656
 msgid "Support on build plate only"
@@ -4989,7 +5006,7 @@ msgstr ""
 
 #: lib/Slic3r/GUI/Plater.pm:2236
 msgid "Rotate"
-msgstr ""
+msgstr "회전"
 
 #: lib/Slic3r/GUI/Plater.pm:2236
 msgid "Rotate the selected object by an arbitrary angle"
@@ -5157,4 +5174,4 @@ msgstr ""
 
 #: lib/Slic3r/GUI/Plater/3DPreview.pm:108
 msgid "Shells"
-msgstr ""
+msgstr "쉘"
