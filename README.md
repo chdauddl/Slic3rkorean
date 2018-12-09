@@ -9,5 +9,5 @@ Slic3r한국어 번역 페이지 입니다.
 블로그
 https://blog.naver.com/hangmini12
 
-현재 20%
+현재 60%
 
