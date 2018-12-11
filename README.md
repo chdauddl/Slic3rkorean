@@ -16,7 +16,7 @@ https://crowdin.com/project/slic3rkorean/ko#
 1차 수정전
 
 전체 다운을 받아
-ko_KR 폴더째로 C:\Program Files\Prusa3D\Slic3rPE\resources\localization 폴더로 복사 합니다.
+내부의 ko_KR 폴더만 C:\Program Files\Prusa3D\Slic3rPE\resources\localization 폴더로 복사 합니다.
 사용자 언어 설정에 언어를 KOREAN으로 변경 합니다. 재시작. 
 
 파일 설명
