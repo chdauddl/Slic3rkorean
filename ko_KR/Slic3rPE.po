@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: slic3rkorean\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-23 12:06+0200\n"
-"PO-Revision-Date: 2018-12-14 21:01+0900\n"
+"PO-Revision-Date: 2018-12-18 20:36+0900\n"
 "Last-Translator: 이학민 <hangmini12@naver.com>\n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -2292,7 +2292,7 @@ msgstr "압출 폭"
 
 #: xs/src/libslic3r/PrintConfig.cpp:306
 msgid "Set this to a non-zero value to set a manual extrusion width for external perimeters. If left zero, default extrusion width will be used if set, otherwise 1.125 x nozzle diameter will be used. If expressed as percentage (for example 200%), it will be computed over layer height."
-msgstr "외부 경계에 대한 수동 압출 폭을 설정하려면 이 값을 0이 아닌 값으로 설정하십시오. 0인 경우 기본 압출 너비가 사용되며, 그렇지 않으면 1.125 x 노즐 직경이 사용된다. 백분율(예: 200%)로 표현되는 경우, 레이어 높이에 걸쳐 계산된다."
+msgstr "외부 경계에 대한 수동 압출 폭을 설정하려면 이 값을 0이 아닌 값으로 설정하십시오. 0인 경우 기본 압출 너비가 사용되며, 그렇지 않으면 1.125 x 노즐 직경이 사용된다. 백분율(예: 200%)로 표현되는 경우, 레이어 높이에 걸쳐 계산됩니다."
 
 #: xs/src/libslic3r/PrintConfig.cpp:309 xs/src/libslic3r/PrintConfig.cpp:694
 #: xs/src/libslic3r/PrintConfig.cpp:812 xs/src/libslic3r/PrintConfig.cpp:1205
@@ -2326,7 +2326,7 @@ msgstr "필요한 경우 추가 둘레"
 #: xs/src/libslic3r/PrintConfig.cpp:336
 #, no-c-format
 msgid "Add more perimeters when needed for avoiding gaps in sloping walls. Slic3r keeps adding perimeters, until more than 70% of the loop immediately above is supported."
-msgstr "경사 벽의 틈을 피하기 위해 필요한 경우 더 많은 파라미터값을 추가하십시오. 위의 루프의 70% 이상이 지지될 때까지 Slic3r는 계속해서 파라미터를 추가한다."
+msgstr "경사 벽의 틈을 피하기 위해 필요한 경우 더 많은 파라미터값을 추가하십시오. 위 루프의 70% 이상이 지지될 때까지 Slic3r는 계속해서 파라미터를 추가합니다."
 
 #: xs/src/libslic3r/PrintConfig.cpp:346
 msgid "The extruder to use (unless more specific extruder settings are specified). This value overrides perimeter and infill extruders, but not the support extruders."
@@ -2338,7 +2338,7 @@ msgstr "높이"
 
 #: xs/src/libslic3r/PrintConfig.cpp:359
 msgid "Set this to the vertical distance between your nozzle tip and (usually) the X carriage rods. In other words, this is the height of the clearance cylinder around your extruder, and it represents the maximum depth the extruder can peek before colliding with other printed objects."
-msgstr "이것을 노즐 팁과 (일반적으로) X 캐리지 로드 사이의 수직 거리로 설정하십시오. 다시 말하면, 이것은 당신의 익스트루더 주위의 틈새 실린더의 높이이며, 그것은 다른 인쇄된 물체와 충돌하기 전에 익스트루더의 최대 깊이를 나타낸다."
+msgstr "이것을 노즐 팁과 (일반적으로) X 캐리지 로드 사이의 수직 거리로 설정하십시오. 다시 말하면, 이것은 당신의 익스트루더 주위의 틈새 실린더의 높이이며, 그것은 다른 인쇄된 물체와 충돌하기 전에 익스트루더의 최대 깊이를 나타냅니다."
 
 #: xs/src/libslic3r/PrintConfig.cpp:369
 msgid "Radius"
@@ -2406,7 +2406,7 @@ msgstr "레이어 인쇄 시간이 미만인 경우 팬 활성화"
 
 #: xs/src/libslic3r/PrintConfig.cpp:433
 msgid "If layer print time is estimated below this number of seconds, fan will be enabled and its speed will be calculated by interpolating the minimum and maximum speeds."
-msgstr "레이어 인쇄 시간이이 초 미만으로 예상되는 경우 팬이 활성화되고 속도는 최소 및 최대 속도를 보간하여 계산됩니다."
+msgstr "레이어 인쇄 시간이, 초 미만으로 예상되는 경우 팬이 활성화되고 속도는 최소 및 최대 속도를 보간하여 계산됩니다."
 
 #: xs/src/libslic3r/PrintConfig.cpp:435 xs/src/libslic3r/PrintConfig.cpp:1490
 msgid "approximate seconds"
@@ -2442,7 +2442,7 @@ msgstr "로딩 속도"
 
 #: xs/src/libslic3r/PrintConfig.cpp:470
 msgid "Speed used for loading the filament on the wipe tower. "
-msgstr "와이퍼 탑(wipe)에 필라멘트를 장착하는 데 사용되는 속도. "
+msgstr "와이퍼 타워에 필라멘트를 장착하는 데 사용되는 속도. "
 
 #: xs/src/libslic3r/PrintConfig.cpp:477
 msgid "Unloading speed"
@@ -2458,7 +2458,7 @@ msgstr "언로드 후 딜레이"
 
 #: xs/src/libslic3r/PrintConfig.cpp:487
 msgid "Time to wait after the filament is unloaded. May help to get reliable toolchanges with flexible materials that may need more time to shrink to original dimensions. "
-msgstr "필라멘트를 내린 후 기다리는 시간. 원래 치수로 축소하는 데 더 많은 시간이 필요할 수 있는 유연한 재료로, 신뢰할 수있는 공구 교환을 얻을 수 있습니다."
+msgstr "필라멘트를 내린 후 기다리는 시간. 원래 치수로 축소하는 데 많은 시간을 줄 수록 신뢰 할 수 있는 도구 교환을 할 수 있습니다."
 
 #: xs/src/libslic3r/PrintConfig.cpp:496
 msgid "Number of cooling moves"
@@ -2667,7 +2667,7 @@ msgstr "압출 없음"
 
 #: xs/src/libslic3r/PrintConfig.cpp:779
 msgid "This is the acceleration your printer will use for infill. Set zero to disable acceleration control for infill."
-msgstr "이것은 당신 프린터의 채움 가속력이다. 주입에 대한 가속 제어를 비활성화하려면 0을 설정하십시오."
+msgstr "이것은 당신 프린터의 채움 가속력입니다. 주입에 대한 가속 제어를 비활성화하려면 0을 설정하십시오."
 
 #: xs/src/libslic3r/PrintConfig.cpp:787
 msgid "Combine infill every"
@@ -2707,7 +2707,7 @@ msgstr "필요한 경우 채음"
 
 #: xs/src/libslic3r/PrintConfig.cpp:825
 msgid "This option will limit infill to the areas actually needed for supporting ceilings (it will act as internal support material). If enabled, slows down the G-code generation due to the multiple checks involved."
-msgstr "이 옵션은 천장 지원에 실제로 필요한 영역에만 적용된다(내부 서포트 재료 역할을 할 것이다). 활성화된 경우 관련된 여러 번의 점검으로 인해 G-code 생성 속도를 늦춰라."
+msgstr "이 옵션은 마지막 채움에 실제로 필요한 영역에만 적용된다(내부 서포트 재료 역할을 할 것이다). 활성화된 경우 관련된 여러 번의 점검으로 인해 G-code 생성 속도를 늦춰라."
 
 #: xs/src/libslic3r/PrintConfig.cpp:832
 msgid "Infill/perimeters overlap"
@@ -2715,7 +2715,7 @@ msgstr "채움/둘레 겹침(perimeters overlap)"
 
 #: xs/src/libslic3r/PrintConfig.cpp:834
 msgid "This setting applies an additional overlap between infill and perimeters for better bonding. Theoretically this shouldn't be needed, but backlash might cause gaps. If expressed as percentage (example: 15%) it is calculated over perimeter extrusion width."
-msgstr "이 설정은 더 나은 본딩을 위해 충전 및 둘레 사이에 추가 겹침을 적용합니다. 이론적으로 이것은 필요하지 않아야하지만 백래시가 갭을 유발할 수 있습니다. 백분율 (예 : 15 %)로 표시되는 경우 경계 압출 폭을 기준으로 계산됩니다."
+msgstr "이 설정은 더 나은 결합을 위해 충전 및 둘레 사이에 추가 겹침을 적용합니다. 이론적으로 이것은 필요하지 않아야하지만 백래시가 갭을 유발할 수 있습니다. 백분율 (예 : 15 %)로 표시되는 경우 경계 압출 폭을 기준으로 계산됩니다."
 
 #: xs/src/libslic3r/PrintConfig.cpp:845
 msgid "Speed for printing the internal fill. Set to zero for auto."
@@ -2723,11 +2723,11 @@ msgstr "내부 채우기 인쇄 속도. 자동으로 0으로 설정하십시오.
 
 #: xs/src/libslic3r/PrintConfig.cpp:854
 msgid "Inherits profile"
-msgstr "프로필 상속"
+msgstr "프로필 이어가기"
 
 #: xs/src/libslic3r/PrintConfig.cpp:855
 msgid "Name of the profile, from which this profile inherits."
-msgstr "이 프로파일이 상속되는 프로파일의 이름."
+msgstr "이 프로파일이 복사되는 새 프로파일의 이름."
 
 #: xs/src/libslic3r/PrintConfig.cpp:866
 msgid "Interface shells"
@@ -2735,7 +2735,7 @@ msgstr "인터페이스 셸(shells)"
 
 #: xs/src/libslic3r/PrintConfig.cpp:867
 msgid "Force the generation of solid shells between adjacent materials/volumes. Useful for multi-extruder prints with translucent materials or manual soluble support material."
-msgstr "인접 재료/볼륨 사이에 고체 쉘 생성을 강제하십시오. 반투명 재료 또는 수동 수용성 서포트 재료를 사용한 다중 압ㅊ기 인쇄에 유용함."
+msgstr "인접 재료/볼륨 사이에 고체 쉘 생성을 강제하십시오. 반투명 재료 또는 수동 수용성 서포트 재료를 사용한 다중 압출기 인쇄에 유용함."
 
 #: xs/src/libslic3r/PrintConfig.cpp:876
 msgid "This custom code is inserted at every layer change, right after the Z move and before the extruder moves to the first layer point. Note that you can use placeholder variables for all Slic3r settings as well as [layer_num] and [layer_z]."
@@ -3067,7 +3067,7 @@ msgstr "리트랙션 길이"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1321
 msgid "When retraction is triggered, filament is pulled back by the specified amount (the length is measured on raw filament, before it enters the extruder)."
-msgstr "후퇴가 트리거되면 필라멘트가 지정된 양만큼 뒤로 당겨집니다 (길이는 압출기에 들어가기 전에 원시 필라멘트에서 측정됩니다)."
+msgstr "리트렉션이 시작되면 필라멘트가 지정된 양만큼 뒤로 당겨집니다 (길이는 압출기에 들어가기 전에 원시 필라멘트에서 측정됩니다)."
 
 #: xs/src/libslic3r/PrintConfig.cpp:1323 xs/src/libslic3r/PrintConfig.cpp:1333
 msgid "mm (zero to disable)"
@@ -3079,7 +3079,7 @@ msgstr "리트랙션 길이 (툴 체인지)"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1330
 msgid "When retraction is triggered before changing tool, filament is pulled back by the specified amount (the length is measured on raw filament, before it enters the extruder)."
-msgstr "공구를 교체하기 전에 후퇴가 트리거되면 필라멘트가 지정된 양만큼 뒤로 당겨집니다 (길이는 압출기에 들어가기 전에 원시 필라멘트에서 측정됩니다)."
+msgstr "공구를 교체하기 전에 리트렉션이 시작하면 필라멘트가 지정된 양만큼 뒤로 당겨집니다 (길이는 압출기에 들어가기 전에 처음 필라멘트에서 측정됩니다)."
 
 #: xs/src/libslic3r/PrintConfig.cpp:1338
 msgid "Lift Z"
@@ -3087,7 +3087,7 @@ msgstr "Z축 올림"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1339
 msgid "If you set this to a positive value, Z is quickly raised every time a retraction is triggered. When using multiple extruders, only the setting for the first extruder will be considered."
-msgstr "이 값을 양수 값으로 설정하면 철회가 트리거 될 때마다 Z가 빠르게 올라갑니다. 여러 개의 압출기를 사용하는 경우 첫 번째 압출기의 설정 만 고려됩니다."
+msgstr "이 값을 양수 값으로 설정하면 리트렉션이 시작 될 때마다 Z가 빠르게 올라갑니다. 여러 개의 압출기를 사용하는 경우 첫 번째 압출기의 설정 만 고려됩니다."
 
 #: xs/src/libslic3r/PrintConfig.cpp:1347
 msgid "Above Z"
@@ -3099,7 +3099,7 @@ msgstr "오직 Z축 위로만"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1349
 msgid "If you set this to a positive value, Z lift will only take place above the specified absolute Z. You can tune this setting for skipping lift on the first layers."
-msgstr "이것을 양의 값으로 설정하면, Z 리프트는 지정된 절대 Z 위로만 발생한다. 첫 번째 층에서 리프트를 건너뛸 수 있도록 이 설정을 조정할 수 있다."
+msgstr "이것을 양수의 값으로 설정하면, 지정된 Z값 위로만 발생한다. 첫 번째 층에서 리프트를 건너뛸 수 있도록 이 설정을 조정할 수 있다."
 
 #: xs/src/libslic3r/PrintConfig.cpp:1356
 msgid "Below Z"
@@ -3111,7 +3111,7 @@ msgstr "Z값 아래만"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1358
 msgid "If you set this to a positive value, Z lift will only take place below the specified absolute Z. You can tune this setting for limiting lift to the first layers."
-msgstr "이것을 양수 값으로 설정하면 Z 리프트가 지정된 절대 Z 아래에서만 발생합니다. 첫 번째 레이어로 리프트를 제한하기 위해이 설정을 조정할 수 있습니다."
+msgstr "이것을 양수 값으로 설정하면, 지정된 Z값 아래에서만 발생합니다. 첫 번째 레이어로 리프트를 제한하기 위해이 설정을 조정할 수 있습니다."
 
 #: xs/src/libslic3r/PrintConfig.cpp:1366 xs/src/libslic3r/PrintConfig.cpp:1374
 msgid "Extra length on restart"
@@ -3171,11 +3171,11 @@ msgstr "방향"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1419
 msgid "Preferred direction of the seam"
-msgstr "선호하는 심(seam)의 방향"
+msgstr "선호하는 재봉선(seam)의 방향"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1420
 msgid "Seam preferred direction"
-msgstr "심(Seam) 선호 방향"
+msgstr "재봉선(Seam) 선호 방향"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1428
 msgid "Jitter"
@@ -3183,7 +3183,7 @@ msgstr "지터(Jitter)"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1430
 msgid "Seam preferred direction jitter"
-msgstr "(Seam) 선호 방향 지터(Jitter)"
+msgstr "재봉선 선호 방향 지터(Jitter)"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1431
 msgid "Preferred direction of the seam - jitter"
@@ -3219,15 +3219,15 @@ msgstr "스커트의 높이 레이어로 표현된다. 이를 높은 값으로 �
 
 #: xs/src/libslic3r/PrintConfig.cpp:1477
 msgid "Loops (minimum)"
-msgstr "루프 (최소)"
+msgstr "루프(Loops) (최소)"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1478
 msgid "Skirt Loops"
-msgstr "스커트 루프"
+msgstr "스커트 루프선 수량"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1479
 msgid "Number of loops for the skirt. If the Minimum Extrusion Length option is set, the number of loops might be greater than the one configured here. Set this to zero to disable skirt completely."
-msgstr "스커트의 루프 수입니다. 최소 압출 길이 옵션을 설정한 경우 여기에 구성된 루프 수보다 클 수 있다. 스커트를 완전히 비활성화하려면 이 값을 0으로 설정하십시오."
+msgstr "스커트의 루프 수량입니다. 최소 압출 길이 옵션을 설정한 경우 여기에 구성된 루프 수보다 클 수 있다. 스커트를 완전히 비활성화하려면 이 값을 0으로 설정하십시오."
 
 #: xs/src/libslic3r/PrintConfig.cpp:1487
 msgid "Slow down if layer print time is below"
@@ -3297,7 +3297,7 @@ msgstr "스파이럴 바이스"
 
 #: xs/src/libslic3r/PrintConfig.cpp:1571
 msgid "This feature will raise Z gradually while printing a single-walled object in order to remove any visible seam. This option requires a single perimeter, no infill, no top solid layers and no support material. You can still set any number of bottom solid layers as well as skirt/brim loops. It won't work when printing more than an object."
-msgstr "이 기능은 단일 벽 물체를 인쇄하는 동안 눈에 보이는 심을 제거하기 위해 Z를 점진적으로 상승시킨다. 이 옵션은 단일 둘레, 주입, 상단 솔리드 레이어 및 지지 재료가 필요하지 않다. 당신은 스커트/브림 루프뿐만 아니라 아래 솔리드 레이어의 수에 상관없이 설정할 수 있다. 그것은 물체보다 더 많이 인쇄할 때는 작동하지 않을 것이다."
+msgstr "이 기능은 단일 벽 물체를 인쇄하는 동안 눈에 보이는 제봉선을 제거하기 위해 Z를 점진적으로 상승시킨다. 이 옵션은 루프, 브림, 스커트 ,상단 솔리드 레이어 및 서포트 재료가 필요하지 않다. 당신은 스커트/브림 루프뿐만 아니라 아래 솔리드 레이어의 수에 상관없이 설정할 수 있다. 그것은 물체보다 더 많이 인쇄할 때는 작동하지 않을 것이다."
 
 #: xs/src/libslic3r/PrintConfig.cpp:1580
 msgid "Temperature variation"
@@ -3309,7 +3309,7 @@ msgstr "돌출부가 활성화되지 않은 경우 적용되는 온도 차이. �
 
 #: xs/src/libslic3r/PrintConfig.cpp:1591
 msgid "This start procedure is inserted at the beginning, after bed has reached the target temperature and extruder just started heating, and before extruder has finished heating. If Slic3r detects M104 or M190 in your custom codes, such commands will not be prepended automatically so you're free to customize the order of heating commands and other custom actions. Note that you can use placeholder variables for all Slic3r settings, so you can put a \"M109 S[first_layer_temperature]\" command wherever you want."
-msgstr "이 시작 절차는 침대가 목표 온도에 도달하고 압출기가 막 가열을 시작한 직후 및 압출기가 가열을 완료하기 전에 처음에 삽입됩니다. Slic3r이 사용자 지정 코드에서 M104 또는 M190을 감지하면 이러한 명령은 자동으로 추가되지 않으므로 가열 명령 및 기타 사용자 지정 동작의 순서를 자유롭게 사용자 지정할 수 있습니다. 모든 Slic3r 설정에 자리 표시 자 변수를 사용할 수 있으므로 원하는 위치에 \"M109 S [first_layer_temperature]\"명령을 넣을 수 있습니다."
+msgstr "이 시작 절차는 침대가 목표 온도에 도달하고 압출기가 막 가열을 시작한 직후 및 압출기가 가열을 완료하기 전에 처음에 삽입됩니다. Slic3r이 사용자 지정 코드에서 M104 또는 M190을 감지하면 이러한 명령은 자동으로 추가되지 않으므로 가열 명령 및 기타 사용자 지정 동작의 순서를 자유롭게 사용자 지정할 수 있습니다. 모든 Slic3r 설정에 변수를 사용할 수 있으므로 원하는 위치에 \"M109 S [first_layer_temperature]\"명령을 넣을 수 있습니다."
 
 #: xs/src/libslic3r/PrintConfig.cpp:1606
 msgid "This start procedure is inserted at the beginning, after any printer start gcode. This is used to override settings for a specific filament. If Slic3r detects M104, M109, M140 or M190 in your custom codes, such commands will not be prepended automatically so you're free to customize the order of heating commands and other custom actions. Note that you can use placeholder variables for all Slic3r settings, so you can put a \"M109 S[first_layer_temperature]\" command wherever you want. If you have multiple extruders, the gcode is processed in extruder order."
